@@ -69,8 +69,7 @@ An educational Python ATM application that supports PIN and facial-biometric log
 - `recogniser.py` and `project1.py` use hard-coded paths and a small fixed user list — consider moving to a dynamic lookup (e.g., loading names from `project.csv`).
 - The LBPH face recognizer requires `opencv-contrib-python` (the face module lives in the contrib package).
 
-## Suggested improvements
-- Add a `requirements.txt` and a setup script (added in this commit).
+## Further improvements
 - Replace CSV with a small database (SQLite) to avoid race conditions and provide safer updates.
 - Dynamically load user names and IDs instead of hard-coded arrays in `recogniser.py`.
 - Improve UI flow and validation (handle edge cases and crashes).
@@ -85,9 +84,3 @@ An educational Python ATM application that supports PIN and facial-biometric log
 ## Contributing
 - Fork the repo, make changes, and raise a pull request.
 - Please add unit tests for logic changes and a `requirements.txt` for reproducible setups.
-
-## License
-No license file is present in the repository. Add a LICENSE (for example, MIT) if you want to allow reuse.
-
-## Contact
-Repository owner: @maryaminam
